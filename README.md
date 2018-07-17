@@ -31,7 +31,7 @@ becomes constricted, just like Bernice here:
 </p>
 
 In the [previous lab][previous-lab], we mostly 'hacked' our way through a
-program structure to render the spheres on the screen. In this lab, we will
+program structure to render the spheres on the screen. In this exercise, we will
 refactor our existing code to be (mostly) in-line with the A-Frame framework's
 suggested way of structuring code. We are doing this because it reduces the
 burden on us to make decisions on how to structure the more difficult parts of
