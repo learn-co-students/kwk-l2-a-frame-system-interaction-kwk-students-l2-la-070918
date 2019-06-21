@@ -8,7 +8,18 @@ SCENE.appendChild(THUNDERDOME.el)
 function main() {
   GAME.spawnPlayer()
   GAME.spawnBall()
+  GAME.spawnBall()
+  GAME.spawnBall()
+  GAME.spawnBall()
+  GAME.spawnBall()
+ 
+  if (Game.checkPlayerCollision(ball)){
+    console.log ("Game restart")
+    Game.restart()
+  }
+  
 }
+
 
 
 SCENE.addEventListener('loaded', main())
